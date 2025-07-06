@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PrivPlus Settings</title>
+  <style>
+    body { font-family: sans-serif; padding: 10px; width: 300px; }
+    input, select, button { width: 100%; margin-top: 5px; padding: 5px; }
+  </style>
+</head>
+<body>
+  <h3>Device Spoofing</h3>
+  <input id="gpuVendor" type="text" placeholder="GPU Vendor (e.g. NVIDIA Corporation)" />
+  <input id="gpuRenderer" type="text" placeholder="GPU Renderer (e.g. GTX 1660 Ti)" />
+  <input id="hardwareConcurrency" type="number" placeholder="CPU Cores (e.g. 4)" />
+  <input id="deviceMemory" type="number" placeholder="Memory (GB)" />
+  <input id="maxTouchPoints" type="number" placeholder="Max Touch Points (e.g. 1)" />
+  <label><input type="checkbox" id="spoofAudio" /> Spoof Audio Fingerprint</label>
+
+  <button id="save">Save</button>
+  <script src="popup.js"></script>
+</body>
+</html>

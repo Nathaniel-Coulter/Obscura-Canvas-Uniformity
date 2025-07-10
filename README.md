@@ -246,7 +246,7 @@ If you want to impersonate another machine, visit **chrome://gpu** for exact Spe
 
 **👉 Memory (GB): 16**
 
-If you are using Obscura on your native OS, and/or have a normal, i.e, 8 Cores, 16GB of Ram -- then you're probably okay.  
+If you are using Obscura on your native OS, and/or have normal hardware specs, i.e, 8 Cores, 16GB of Ram -- then you're probably okay.  
 
 However, if you're running a VM without the ability to allocate a minimum of 4 Cores and 8GB, definitely use the inputs below. (I still HIGHLY recommend getting an SSD / Qubes so you have the ability to allocate
 normal looking resources to your VM for Redteam sims or just everyday use without getting flagged from Banking sites.) 

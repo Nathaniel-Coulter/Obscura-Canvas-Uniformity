@@ -251,9 +251,7 @@ If you are using Obscura on your native OS, and/or have normal hardware specs, i
 **NOTE: By "Cores" to allocate, I mean vCPUs. Websites can't see what hardware you're running only drivers... So even if you have an older i5 chips with 6-10 physical cores, it should support dual threads so 6*2=12 VCPU's. If you can get by without using the extension by allocating more vCPU "cores" to your VM, that is always the best option.**
 
 However, if you're running a VM without the ability to allocate a minimum of 4 Cores and 8GB, definitely use the inputs below. (I still HIGHLY recommend getting an SSD / Qubes so you have the ability to allocate
-normal looking resources to your VM for Redteam sims or just everyday use without getting flagged from Banking sites.) 
-
-Note: Only deviate from suggested specs unless you're aiming to spoof a certain machine, otherwise your browser fingerprint will be too unique if you put like 7 cores and 15GB of RAM it isn't realistic anymore. 
+normal looking resources to your VM for Redteam sims or just everyday use without getting flagged from Banking sites). Only deviate from suggested specs unless you're aiming to spoof a certain machine, otherwise your browser fingerprint will be too unique if you put like 7 cores and 15GB of RAM it isn't realistic anymore. 
 
 **👉 Max Touch Points:**
 

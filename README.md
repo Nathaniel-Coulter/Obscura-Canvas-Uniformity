@@ -356,7 +356,7 @@ All networking routed through ->
 
 **4️⃣ VPN VM (Sys-Mullvad):** **Debian minimal template**, very basic setup. I use Mullvad VPN, but this is more to obscure ISP traffic, and make it so no traffic from my windows machine ever touches my actual wifi. I usually keep the same IP address for a few days, and i'll hardcode IPtables + redsocks firewalls to only allow traffic leaks from that IP. But I don't always have it chained when i'm home or doing normal browsing on a personal-vm. Since I boot qubes from an SSD, it's nice having a dedicated VPN qube to be used on public networks, as a good first machine for the network to connect to. Also, I use Mullvad as a VPN and VPS provider because I trust them with my data. The Swedish police raided them a few years ago, and left with nothing because Mullvad themselves doesn't keep logs. 😂😆🤣 Not to mention they are priced amazingly, and quite easy to setup using WireGuard on a bare Standalone VM like Debian Minimal. 
 
-**5️⃣ Sys-net:** This is just a normal network VM like how you'd connect to the internet on a normal os **(Fedora-41).**
+**5️⃣ Sys-net:** This is just a normal network VM like how you'd connect to the internet on a normal operating system. Template = **(Fedora-41).**
 
 In sum — your first machine doesn't have to be a Windows10 machine. I also have a few other ISO's that i'd connect to this chain like Parrot, BlackArch (or Kali if you're a 15yr old MentalOutlaw viewer). 
 

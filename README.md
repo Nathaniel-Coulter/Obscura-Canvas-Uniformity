@@ -338,7 +338,7 @@ My personal recommendation for anyone who wants to be as OPSEC conscious as poss
 
 Here's a breif overview of my Qubes OS setup: 
 
-**1️⃣ Main qube:** Windows10 iso (extremely hardened with extensions like Obscura, additional WebRtc + DNS blocking apps, fucktelemetry.cmd (https://gist.github.com/FadeMind/9500d49948654b50aa870706a8ac9f04), manually disabled IPv6 in Network & Ethernet settings so I can only allow IPv4 traffic out, and Proxifier.) 
+**1️⃣ Main qube:** **Windows10** iso (extremely hardened with extensions like Obscura, additional WebRtc + DNS blocking apps, fucktelemetry.cmd (https://gist.github.com/FadeMind/9500d49948654b50aa870706a8ac9f04), manually disabled IPv6 in Network & Ethernet settings so I can only allow IPv4 traffic out, and Proxifier.) 
 
 **Proxifier allows you to route all traffic** through a dedicated Proxy, and does a really good job ensuring no leaks if you configure rules correctly.
 
@@ -352,8 +352,7 @@ All networking routed through ->
 
 All networking routed through ->
 
-**4️⃣ VPN VM (Sys-Mullvad):** debian minimal template, very basic setup. I use Mullvad VPN, but this is more to obscure ISP traffic, and make it so no traffic from my windows machine ever touches my actual wifi. 
-I don't always have it chained when i'm home, but I boot qubes from an SSD so it's used on public networks as a good first machine for the network to connect to. Also, I use Mullvad as a VPN and VPS provider because I trust them with my data. The Swedish police raided them a few years ago, and left with nothing because Mullvad themselves don't keep logs. 😂😆🤣 Not to mention they are priced amazingly, and extemely easy to setup using WireGuard in a Standalone VM on Qubes. 
+**4️⃣ VPN VM (Sys-Mullvad):** **Debian minimal template**, very basic setup. I use Mullvad VPN, but this is more to obscure ISP traffic, and make it so no traffic from my windows machine ever touches my actual wifi. I don't always have it chained when i'm home, but I boot qubes from an SSD so it's used on public networks as a good first machine for the network to connect to. Also, I use Mullvad as a VPN and VPS provider because I trust them with my data. The Swedish police raided them a few years ago, and left with nothing because Mullvad themselves don't keep logs. 😂😆🤣 Not to mention they are priced amazingly, and extemely easy to setup using WireGuard in a Standalone VM on Qubes. 
 
 **5️⃣ Sys-net:** this is just a normal network VM like how you'd connect to the internet on a normal os (Fedora-41).
 

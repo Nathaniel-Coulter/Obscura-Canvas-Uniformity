@@ -58,7 +58,8 @@ CSP bypass (Chrome Security Policy) enables injection on 95% of websites
 
 To install Obscura in Chrome or any Chromium-based browser:
 
-**Step 1:** Download the repository ZIP file here: https://github.com/Nathaniel-Coulter/Obscura-Canvas-Uniformity/raw/main/Obscura-Chrome.zip Then click the on the arrow and select “Download ZIP” , it isn't downloaded automatically.
+**Step 1:** Download the repository ZIP file here: https://github.com/Nathaniel-Coulter/Obscura-Canvas-Uniformity/raw/main/Obscura-Chrome.zip 
+(Then click the on the arrow and select “Download ZIP” , if isn't downloaded automatically.)
 
 **Step 2:** Extract the ZIP Unzip the contents into a folder on your desktop or another easy-to-access location. (Left Click -> Extract) 
 

@@ -348,7 +348,7 @@ Here's a breif overview of my Qubes OS setup:
 
 All networking routed through ->
 
-**3️⃣ Firewall VM:** I chose **Alpine Linux** for this Appvm because it's extremely lightweight, and you can control everything that comes in or out since you have to build and allow networking with qubes. This serves as a final attempt to stop anything from leaving the chain. Pretty much copies and builds upon the firewall in previous vm just stricter.
+**3️⃣ Firewall VM:** I chose **Alpine Linux** for this Appvm because it's super lightweight, minimal attack surface, and you can control everything that comes in or out since you have to build and allow networking with qubes. This serves as a final attempt to stop anything from leaving the chain. Pretty much copies and builds upon the firewall in previous vm just stricter.
 
 All networking routed through ->
 

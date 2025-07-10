@@ -47,8 +47,6 @@ Your configuration (set via config.html) determines how canvas fingerprinting at
 
 **CSP-bypass.js (Chrome Security Policy) enables inject.js to successfully inject on 95% of websites.** **While chromelaunch2.bat blocks WebRTC so your real PC specs, and IP don't leak.**
 
-
-
 📛 Masks canvas getImageData() and toDataURL() output
 
 ⚙️ Offers full control through a local config panel

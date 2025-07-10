@@ -1,0 +1,45 @@
+Batch File (Important): 
+
+I personally recommend using the most recent version of Chrome for your OS, which are the following as of July 8, 2025...
+
+138.0.7204.98 for Windows
+138.0.7204.94 for macOS 
+138.0.7204.100 for Linux
+
+However, if your goal is to blend in then I'd recommend visiting amiunique.org, 
+Click: "See My Fingerprint" ->  Global Statistics (Choose the last 15-30 days) -> Web Browser -> Hamburger Menu (three lines) -> View Data Table. 
+This will show you which (Chrome) Version the majority of site visitors were using during the given timeframe.  
+
+GPU Vendor: I suggest using "Google Inc. (Google)". Make sure your GPU Vendor and and Renderer are typed correctly so they match other users. 
+
+GPU Renderer: If your similarity ratio on amiunique is high, meaning you don't have a unique GPU Renderer, than you can consider leaving this field blank. 
+ - If you want to copy another Renderer, visit chrome://gpu for exact Specs to copy.
+ - My personal desktop has a weird spec (AMD GPU, Intel CPU, Dell Motherboard / Firmware). However, my laptop doesn't so I usually leak GPU Renderer Blank unless I'm running a VM.
+___________________________________________________________________________________________________________________________________________________________________________________________
+STEALTHY VIRTUAL MACHINES: 
+
+CPU Cores / Memory (GB): If you have a normal spec native OS, i.e, 8 Cores, 16GB of Ram -- then you're ok. 
+
+But, if you're running a VM without the ability to allocate a minimum of 4 Cores and 8GB, definitely use these inputs. (I still highly recommend getting an SSD / Qubes so you have the ability to allocate
+normal looking resources to your VM for Redteam sims. 
+
+
+Max Touch Points: 
+-Set as 0 or leave blank for most standard desktops.
+-Set as 1 for touch screen laptops.
+-Set as 5+ for mobile device spoofing.  
+
+
+
+Example Configuration: Lenovo ThinkPad 
+ 
+{
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.7204.98 Safari/537.36",
+  "gpuVendor": "Google Inc.",
+  "gpuRenderer": "ANGLE (Intel, Intel(R) UHD Graphics 620 Direct3D11 vs_5_0 ps_5_0)",
+  "hardwareConcurrency": 4,
+  "deviceMemory": 8,
+  "maxTouchPoints": 1,
+  "spoofAudio": false
+}
+

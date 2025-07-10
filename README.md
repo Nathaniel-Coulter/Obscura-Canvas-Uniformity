@@ -3,7 +3,7 @@
 
 <br>
 <p align="center">
-<img src="assets/obscura.png" width="600" alt="Obscura: Canvas Uniformity">
+<img src="assets/Obscura.png" width="600" alt="Obscura: Canvas Uniformity">
 </p>
 
 💡  **Manually Control your Browser Fingerprint:** Enhance your Browser Privacy, and **Create Stealthy Virtual Machines** with advanced canvas control, and system-level transparency. Obscura helps reduce data leaks by allowing you to deliberately align your environment with standard browser characteristics—no tracking, no randomness, just consistency.

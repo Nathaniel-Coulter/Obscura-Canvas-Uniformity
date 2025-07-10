@@ -358,7 +358,7 @@ All networking routed through ->
 
 **5️⃣ Sys-net:** This is just a normal network VM like how you'd connect to the internet on a normal os **(Fedora-41).**
 
-In sum — your first machine doesn't have to be a Windows10 machine. I also have a few other ISO's that i'd connect to this chain like Parrot, BlackArch (or Kali if you're based). 
+In sum — your first machine doesn't have to be a Windows10 machine. I also have a few other ISO's that i'd connect to this chain like Parrot, BlackArch (or Kali if you're a 15yr old MentalOutlaw viewer). 
 
 ## 📁 File Overview 
 

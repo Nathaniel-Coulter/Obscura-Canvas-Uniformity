@@ -352,7 +352,7 @@ All networking routed through ->
 
 All networking routed through ->
 
-**4️⃣ VPN VM (Sys-Mullvad):** debian minimal template, very basic setup. I use Mullvad VPn, but this is more to obscure ISP traffic, and make it so no traffic from my windows machine ever touches my actual wifi. 
+**4️⃣ VPN VM (Sys-Mullvad):** debian minimal template, very basic setup. I use Mullvad VPN, but this is more to obscure ISP traffic, and make it so no traffic from my windows machine ever touches my actual wifi. 
 I don't always have it chained when i'm home, but I boot qubes from an SSD so it's used on public networks as a good first machine for the network to connect to. Also, I use Mullvad as a VPN and VPS provider because I trust them with my data. The Swedish police raided them a few years ago, and left with nothing because Mullvad themselves don't keep logs. 😂😆🤣 Not to mention they are priced amazingly, and extemely easy to setup using WireGuard in a Standalone VM on Qubes. 
 
 **5️⃣ Sys-net:** this is just a normal network VM like how you'd connect to the internet on a normal os (Fedora-41).

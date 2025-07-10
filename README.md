@@ -110,6 +110,67 @@ start chrome.exe ^
   --no-first-run
 ```
 
+### 🐧 Linux/macOS Users: 🍎 
+**Use applelaunch.sh & linuxlaunch.sh instead of chromelaunch2.bat to run Chrome.**
+
+
+**linuxlaunch.sh for Linux**
+
+**If your system uses chromium instead of google-chrome, replace the first line** 
+``` r
+#!/bin/bash
+
+# === Launch Chrome or Chromium with spoofed fingerprint parameters ===
+google-chrome \
+  --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.7204.98 Safari/537.36" \
+  --lang="en-US,en;q=0.9" \
+  --window-size=1440,900 \
+  --disable-webrtc \
+  --disable-accelerated-2d-canvas \
+  --disable-background-networking \
+  --disable-background-timer-throttling \
+  --disable-client-side-phishing-detection \
+  --disable-hang-monitor \
+  --disable-popup-blocking \
+  --disable-default-apps \
+  --no-default-browser-check \
+  --no-first-run
+
+```
+Launch Script:
+```bash
+./linuxlaunch.sh
+```
+
+**applelaunch.sh for macOS**
+
+Make sure the path to Chrome is correct (I used the default for macOS). 
+``` r
+#!/bin/bash
+
+# === Launch Chrome with spoofed fingerprint parameters ===
+"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
+  --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.7204.98 Safari/537.36" \
+  --lang="en-US,en;q=0.9" \
+  --window-size=1440,900 \
+  --disable-webrtc \
+  --disable-accelerated-2d-canvas \
+  --disable-background-networking \
+  --disable-background-timer-throttling \
+  --disable-client-side-phishing-detection \
+  --disable-hang-monitor \
+  --disable-popup-blocking \
+  --disable-default-apps \
+  --no-default-browser-check \
+  --no-first-run
+
+```
+Launch Script:
+```bash
+./applelaunch.sh
+```
+
+
 ## 🔨 Configuration
 
 **🧠 (IMPORTANT)** While the built in scripts will detect some specs, that feature is mostly for your convenience and not to validate your setup. 

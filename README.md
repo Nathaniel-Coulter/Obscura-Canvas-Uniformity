@@ -38,6 +38,10 @@ common browser profile rather than stand out as “random”
 
 ## ⚙️ How Obscura Works:
 
+<p align="center">
+<img src="assets/Console.png" width="900" alt="Config">
+</p>
+
 Obscura injects JavaScript into every page context, using browser APIs like getImageData(), toDataURL(), and getContext() to override and spoof the outputs of HTML canvas rendering.
 Your configuration (set via config.html) determines how canvas fingerprinting attempts are handled. Injected values are deterministic (defined by you). Obscura ensures the spoof is applied before page scripts execute. 
 CSP bypass (Chrome Security Policy) enables injection on 95% of websites
@@ -49,10 +53,6 @@ CSP bypass (Chrome Security Policy) enables injection on 95% of websites
 🧱 Optional CSP bypass for locked-down environments
 
 🧪 Designed for privacy lab testing, pen testing, and educational use
-
-<p align="center">
-<img src="assets/Console.png" width="900" alt="Config">
-</p>
 
 <p align="center">
 <img src="assets/visual.png" width="300" alt="Config">

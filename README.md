@@ -45,7 +45,7 @@ common browser profile rather than stand out as “random”
 Obscura injects JavaScript into every page context, using browser APIs like getImageData(), toDataURL(), and getContext() to override and spoof the outputs of HTML canvas rendering.
 Your configuration (set via config.html) determines how canvas fingerprinting attempts are handled. Injected values are deterministic (defined by you). Obscura ensures the spoof is applied before page scripts execute. 
 
-**CSP bypass (Chrome Security Policy) enables injection on 95% of websites.**
+**If inject.js fails, CSP-bypass.js (Chrome Security Policy) enables spoof injection on 95% of websites. While chromelaunch2.bat blocks WebRTC so you're real specs, and IP never leak.**
 
 📛 Masks canvas getImageData() and toDataURL() output
 

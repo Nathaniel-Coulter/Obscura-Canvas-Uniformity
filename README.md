@@ -280,9 +280,9 @@ Example Configuration: Base i5 Lenovo ThinkPad (2020)
 }
 ```
 
-**Final Config Tips:** 
+**❗❗❗Final Config Tips:❗❗❗** 
 
-1.) If your VM can’t allocate at least 4 CPU cores and 8GB RAM, use those values anyway in Obscura — but understand that some fingerprinting tools may still detect hardware inconsistencies.
+1.) If your VM can’t allocate at least 4 CPU cores and 8GB RAM, use those values anyway in Obscura — but understand that **some fingerprinting tools may still detect hardware inconsistencies between your browser (which is spoofed), and what they can estimate from your base OS.❗❗❗**
 
 2.) GPU Renderer: If your similarity ratio is high (i.e., many people have your renderer), you may choose to leave it blank to simulate ambiguity. (See start of next section)
 

@@ -36,10 +36,6 @@ or controlled fingerprint spoofing
 👤 Still useful for privacy, especially if you want to impersonate a
 common browser profile rather than stand out as “random”
 
-<p align="center">
-<img src="assets/visual.png" width="300" alt="Config">
-</p>
-
 ## ⚙️ How Obscura Works:
 
 Obscura injects JavaScript into every page context, using browser APIs like getImageData(), toDataURL(), and getContext() to override and spoof the outputs of HTML canvas rendering.
@@ -54,19 +50,34 @@ CSP bypass (Chrome Security Policy) enables injection on 95% of websites
 
 🧪 Designed for privacy lab testing, pen testing, and educational use
 
+<p align="center">
+<img src="assets/visual.png" width="300" alt="Config">
+</p>
+
 ## 🚀 Installation 
 
 To install Obscura in Chrome or any Chromium-based browser:
 
-**Step 1:** Download the repository ZIP Click the green Code button at the top of this repo and select “Download ZIP”.
+**Step 1:** Download the repository ZIP file here: https://github.com/Nathaniel-Coulter/Obscura-Canvas-Uniformity/raw/main/Obscura-Chrome.zip Then click the on the arrow and select “Download ZIP” , it isn't downloaded automatically.
 
-**Step 2:** Extract the ZIP Unzip the contents into a folder on your desktop or another easy-to-access location.
+**Step 2:** Extract the ZIP Unzip the contents into a folder on your desktop or another easy-to-access location. (Left Click -> Extract) 
 
-**Step 3:** Open Chrome and navigate to <chrome://extensions/> You can also click the menu icon → More Tools → Extensions. Enable Developer Mode Toggle the Developer mode switch in the top right
-corner of the extensions page. Click “Load Unpacked” Select the folder where you extracted Obscura.
+**Step 3:** Open Chrome and navigate to **<chrome://extensions/>** or Click the little Puzzle Piece to the right of your address bar, than click manage extensions. (You can also click the menu icon → Extensions.) 
+**Enable Developer Mode Toggle the Developer mode switch in the top right corner of the extensions page.** Then click “Load Unpacked” and select the folder where you extracted Obscura.zip.
 
 ✅ Obscura should now appear in your extensions list and begin functioning automatically.
 
+**To Download Via PowerShell, CMD, MacOS or Linux Terminal:**  
+``` r
+wget https://github.com/Nathaniel-Coulter/Obscura-Canvas-Uniformity/raw/main/Obscura-Chrome.zip
+
+curl -LO https://github.com/Nathaniel-Coulter/Obscura-Canvas-Uniformity/raw/main/Obscura-Chrome.zip
+
+Invoke-WebRequest -Uri "https://github.com/Nathaniel-Coulter/Obscura-Canvas-Uniformity/raw/main/Obscura-Chrome.zip" -OutFile "Obscura-Chrome.zip"
+
+powershell -Command "Invoke-WebRequest -Uri 'https://github.com/Nathaniel-Coulter/Obscura-Canvas-Uniformity/raw/main/Obscura-Chrome.zip' -OutFile 'Obscura-Chrome.zip'"
+
+```
 Note: No dependencies are required to start spoofing. To customize behavior, use the built-in config panel (see next section).
 
 ## ⚙️ Running & Configuration 

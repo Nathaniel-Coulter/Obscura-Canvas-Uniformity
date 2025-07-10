@@ -289,7 +289,9 @@ Example Configuration: Base i5 Lenovo ThinkPad (2020)
 3.) Copy and Paste; Obscura will inject exactly what you tell it to. Make sure there's no typo's. 
 
 ## 🧪 Testing, Fingerprint Hygiene & Advanced Spoofing 
-**‼️Am I unique isn't perfect** The data you're being compared against is everyone who's visited the site in the given timeframe you're viewing. For that reason, note that just because a similarity score for your user agent (Chrome Version) is lower than another version, that doesn't neccesarily make it less legitimate. If you're using the latest stable release, you have to account for the lag in user adoption. So try changing the time period to today / this week.
+**‼️AmIunique.org isn't perfect** 
+
+The data you're being compared against is everyone who's visited the site in the given timeframe you're viewing. For that reason, note that just because a similarity score for your user agent (Chrome Version) is lower than another version, that doesn't neccesarily make it less legitimate. If you're using the latest stable release, you have to account for the lag in user adoption. So try changing the time period to today / this week.
 On the otherhand, **if you have a high similarity score for WebGL Vendor or WebGL Renderer. But you're on a Virtual Machine... That's actually a bad thing, and you should inject a driver that doesn't reflect the usage of a VM.**
 
 Once you’ve installed and configured Obscura, it’s important to validate your fingerprint, check for leaks, and ensure your setup is trusted. Here’s a comprehensive guide to do exactly that.

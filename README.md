@@ -56,7 +56,7 @@ Your configuration (set via config.html) determines how canvas fingerprinting at
 
 🧪 Designed for privacy lab testing, pen testing, and educational use
 ____________________________________________________________________________________________________________________________________________________________________________________________________
-**Obscura automatically detects your current IP, OS, Resolution, CPU Cores, RAM, and Chrome Version.**
+**-> Obscura automatically detects your current IP, OS, Resolution, CPU Cores, RAM, and Chrome Version for your convenience & safety!**
 
 <p align="center">
 <img src="assets/visual.png" width="300" alt="Config">

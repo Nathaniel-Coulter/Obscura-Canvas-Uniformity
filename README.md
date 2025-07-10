@@ -51,7 +51,7 @@ CSP bypass (Chrome Security Policy) enables injection on 95% of websites
 🧪 Designed for privacy lab testing, pen testing, and educational use
 
 <p align="center">
-<img src="assets/console.png" width="300" alt="Config">
+<img src="assets/Console.png" width="300" alt="Config">
 </p>
 
 <p align="center">

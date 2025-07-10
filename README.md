@@ -50,9 +50,11 @@ Your configuration (set via config.html) determines how canvas fingerprinting at
 ⚙️ Offers full control through a local config panel
 
 🧱 Optional CSP bypass for locked-down environments
+
 **-> CSP-bypass.js (Chrome Security Policy) enables inject.js to successfully inject on 95% of websites.**
 
 🧪 Designed for privacy lab testing, pen testing, and educational use
+
 **->chromelaunch2.bat blocks WebRTC so your real PC specs, and IP don't leak.**
 
 <p align="center">

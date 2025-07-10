@@ -330,7 +330,8 @@ These give you the cleanest spoofed profile when paired with Obscura.
 
 ## 🕵️Qubes OS (& Bonus OPSEC Rant)
 
-**VPN's don't do anything to protect against DNS / WebRTC leaks.** I wouldn't even use one with Tor unless it was to hide my activity from an ISP, even then you could just use a Tor Bridge. 
+**VPN's don't do anything to protect against DNS / WebRTC leaks.** I wouldn't even use one with Tor unless it was to hide my activity from an ISP (Internet Service Provider). Even then you could just use a Tor Bridge. 
+
 **Browsers will leak both even if you manually disable them in a given browsers settings**. Yes, even Brave and especially chrome. Firefox is safer to an extent. 
 But your DNS + WebRTC can still leak your real IP. All you're doing is hiding traffic from your ISP.(Tails won't save you either even with JS disabled -- I still love Tails for Electrum & Cold Wallets though❤️). 
 My personal recommendation for anyone who wants to be as OPSEC conscious as possible is to use Qubes OS on an SSD you can connect via lightning port. https://www.qubes-os.org/

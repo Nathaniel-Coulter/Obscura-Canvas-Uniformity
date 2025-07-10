@@ -342,7 +342,7 @@ Here's a breif overview of my Qubes OS setup:
 
 **Proxifier allows you to route all traffic** through a dedicated Proxy, and does a really good job ensuring no leaks if you configure rules correctly.
 
-^I don't have that qube connected to my home wifi. All networking is routed through another StandaloneVM (Qube) →>
+^I don't have that qube connected to my home wifi. All networking is routed through another StandaloneVM (Qube) ->
 
 **2️⃣ Proxy Qube (Sys-proxy):** I built a **Void-Linux** template that uses tun2socks to catch as much traffic as possible leaving win10 and route it all through a socks5 provider. Redsocks & iptables configured to block anything else from leaving if it's not routed through the Socks5. This is a step up from just using Proxifier inside your windows qube, but its well worth it if you have the time and willingness to setup. You know exactly what comes in and out of your Qube.
 

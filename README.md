@@ -293,7 +293,7 @@ Example Configuration: Base i5 Lenovo ThinkPad (2020)
 
 The data you're being compared against is everyone who's visited the site in the given timeframe you're viewing. For that reason, note that just because a similarity score for your user agent (Chrome Version) is lower than another version, that doesn't neccesarily make it less legitimate. If you're using the latest stable release, you have to account for the lag in user adoption. So try changing the time period to today / this week.
 
-On the otherhand, **if you have a high similarity score for WebGL Vendor or WebGL Renderer. But you're on a Virtual Machine... That's actually a bad thing.** You aren't blending into the target segment of internet users -- Don't misinterpret the data, you're blending in with bots so you should still inject a driver that doesn't reflect the usage of a VM or headless browser.**
+On the otherhand, **if you have a high similarity score for WebGL Vendor or WebGL Renderer. But you're on a Virtual Machine... That's actually a bad thing.** You aren't blending into the target segment of internet users -- **Don't misinterpret the data, you're blending in with bots** so you should still inject a driver that doesn't reflect the usage of a VM or headless browser.
 
 Once you’ve installed and configured Obscura, it’s important to validate your fingerprint, check for leaks, and ensure your setup is trusted. Here’s a comprehensive guide to do exactly that.
 

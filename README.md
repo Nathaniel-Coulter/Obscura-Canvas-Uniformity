@@ -55,12 +55,12 @@ Your configuration (set via config.html) determines how canvas fingerprinting at
 🧱 Optional CSP bypass for locked-down environments
 
 🧪 Designed for privacy lab testing, pen testing, and educational use
+____________________________________________________________________________________________________________________________________________________________________________________________________
+**Obscura automatically detects your current IP, OS, Resolution, CPU Cores, RAM, and Chrome Version.**
 
 <p align="center">
 <img src="assets/visual.png" width="300" alt="Config">
 </p>
-
-**Obscura automatically detects your current IP, OS, Resolution, CPU Cores, RAM, and Chrome Version.**
 
 ## 🚀 Installation 
 

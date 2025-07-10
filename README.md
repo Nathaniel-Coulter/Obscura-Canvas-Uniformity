@@ -3,7 +3,7 @@
 
 <br>
 <p align="center">
-<img src="assets/Obscura.png" width="600" alt="Obscura: Canvas Uniformity">
+<img src="assets/Obscura.png" width="900" alt="Obscura: Canvas Uniformity">
 </p>
 
 💡  **Manually Control your Browser Fingerprint:** Enhance your Browser Privacy, and **Create Stealthy Virtual Machines** with advanced canvas control, and system-level transparency. Obscura helps reduce data leaks by allowing you to deliberately align your environment with standard browser characteristics—no tracking, no randomness, just consistency.
@@ -51,7 +51,7 @@ CSP bypass (Chrome Security Policy) enables injection on 95% of websites
 🧪 Designed for privacy lab testing, pen testing, and educational use
 
 <p align="center">
-<img src="assets/Console.png" width="300" alt="Config">
+<img src="assets/Console.png" width="900" alt="Config">
 </p>
 
 <p align="center">

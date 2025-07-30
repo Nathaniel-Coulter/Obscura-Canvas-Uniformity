@@ -301,7 +301,7 @@ Once you’ve installed and configured Obscura, it’s important to validate you
 
 🔎 AmIUnique.org — Check canvas spoofing & compare similarity ratios
 
-🖼️ BrowserLeaks Canvas Test — Detect canvas tampering
+🖼️ BrowserLeaks.com Canvas Test (and/or dnsleaktest.com) — Detect canvas tampering
 
 🔬 Pixelscan.net — Advanced fingerprint scanner with tracker detection
 

@@ -301,9 +301,11 @@ Once you’ve installed and configured Obscura, it’s important to validate you
 
 🔎 AmIUnique.org — Check canvas spoofing & compare similarity ratios
 
-🖼️ BrowserLeaks.com Canvas Test (and/or dnsleaktest.com) — Detect canvas tampering
+🖼️ BrowserLeaks.com (Canvas Test) — Detect canvas tampering
 
-🔬 Pixelscan.net — Advanced fingerprint scanner with tracker detection
+🚰 Dnsleaktest.com — Additional resource for WebRTC and DNS (Domain Name System) validation 
+
+🔬 Pixelscan.net — Advanced fingerprint scanner with tracker detection (best used to gauge how much you look like a headless browser or webscraping bot). 
 
 📡 Whoer.net — Displays IP, proxy/vpn status, DNS, and WebRTC leak
 status

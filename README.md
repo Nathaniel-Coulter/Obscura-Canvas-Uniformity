@@ -305,7 +305,7 @@ Once you’ve installed and configured Obscura, it’s important to validate you
 
 🚰 Dnsleaktest.com — Additional resource for WebRTC and DNS (Domain Name System) validation 
 
-🔬 Pixelscan.net — Advanced fingerprint scanner with tracker detection (best used to gauge how much you look like a headless browser or webscraping bot). 
+🔬 Pixelscan.net — Advanced fingerprint scanner with tracker detection (Pass or Fail test detects headless browser or webscraping bot similarity). 
 
 📡 Whoer.net — Displays IP, proxy/vpn status, DNS, and WebRTC leak
 status
